@@ -1,14 +1,51 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[output=book,nonflat,modfonts,
+  colorlinks,citecolor=brown, 
+%  draft,draftmode,  
+%  showindex,
+%  nobabel,
+%  booklanguage=german,
+%  multiauthors,
+		  ]{langsci/langscibook}    
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%          additional packages                 %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-\title{253 van rooy}
-\author{sebastian.nordhoff }
-\date{September 2019}
+\input{localmetadata.tex}
+\input{localpackages.tex}
+\input{localhyphenation.tex}
+\addbibresource{localbibliography.bib}
 
-\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Frontmatter                      %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document} 
+ 
+\input{localcommands.tex} 
+  
+\maketitle                
+\frontmatter 
 
-\maketitle
+\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
+{\sloppy\tableofcontents}
+ \include{chapters/preface}
+ \include{chapters/acknowledgments}
+ \include{chapters/abbreviations} 
+\mainmatter     
+  
 
-\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Chapters                         %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{document}
+\include{chapters/01}  %add a percentage sign in front of the line to exclude this chapter from book
+  
+% % copy the lines above and adapt as necessary
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Backmatter                       %%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{localseealso.tex}  
+\input{backmatter.tex} 
+\end{document}  
