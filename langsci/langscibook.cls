@@ -735,12 +735,12 @@
 	]{DejaVuSansMono.ttf}
 
 \iflsNewtxmath\else
-\setmathfont[AutoFakeBold]{libertinusmath-regular.otf}
+\setmathfont[AutoFakeBold,Path=\fontpath]{LibertinusMath-Regular.otf}
 \fi
 
 \iflsModfonts% use Langsci fonts
   \iflsOldStyleNumbers
-    \defaultfontfeatures[LinLibertine_RZ_B.otf,LinLibertine_RI_B.otf,LinLibertine_RZI_B.otf,LinLibertine_R_B.otf]{SmallCapsFeatures={Numbers=OldStyle}}
+    \defaultfontfeatures[LibertinusSerif-Semibold.otf,LibertinusSerif-Italic.otf,LibertinusSerif-SemiboldItalic.otf,LibertinusSerif-Regular.otf]{SmallCapsFeatures={Numbers=OldStyle}}
   \fi
   \setsansfont[
 	  %Ligatures={TeX,Common},		% not supported by ttf
@@ -756,25 +756,25 @@
 	  Path=\fontpath,
 	  PunctuationSpace=0,
 	  Numbers={Proportional},
-	  BoldFont = LinLibertine_RZ_B.otf ,
-	  ItalicFont = LinLibertine_RI_B.otf ,
-	  BoldItalicFont = LinLibertine_RZI_B.otf,
-	  BoldSlantedFont = LinLibertine_RZ_B.otf,
-	  SlantedFont    = LinLibertine_R_B.otf,
+	  BoldFont = LibertinusSerif-Semibold.otf,
+	  ItalicFont = LibertinusSerif-Italic.otf,
+	  BoldItalicFont = LibertinusSerif-SemiboldItalic.otf,
+	  BoldSlantedFont = LibertinusSerif-Semibold.otf,
+	  SlantedFont    = LibertinusSerif-Regular.otf,
 	  SlantedFeatures = {FakeSlant=0.25},
 	  BoldSlantedFeatures = {FakeSlant=0.25},
 	  SmallCapsFeatures = {FakeSlant=0},
-	  ]{LinLibertine_R_B.otf}
+	  ]{LibertinusSerif-Regular.otf}
 \else % use standard fonts
   \iflsOldStyleNumbers
-    \defaultfontfeatures[LinLibertine_RZ.otf,LinLibertine_RI.otf,LinLibertine_RZI.otf,LinLibertine_R.otf]{SmallCapsFeatures={Numbers=OldStyle}}
+    \defaultfontfeatures[LibertinusSerif-Semibold.otf,LibertinusSerif-Italic.otf,LibertinusSerif-SemiboldItalic.otf,LibertinusSerif-Regular.otf]{SmallCapsFeatures={Numbers=OldStyle}}
   \fi
   \setsansfont[
 	  %Ligatures={TeX,Common},		% not supported by ttf
 	  Scale=MatchLowercase,
 	  Path=\fontpath,
-	  BoldFont = Arimo-Bold.ttf ,
-	  ItalicFont = Arimo-Italic.ttf ,
+	  BoldFont = Arimo-Bold.ttf,
+	  ItalicFont = Arimo-Italic.ttf,
 	  BoldItalicFont = Arimo-BoldItalic.ttf
 	  ]{Arimo-Regular.ttf}
 
@@ -783,15 +783,15 @@
 	  Path=\fontpath,
 	  PunctuationSpace=0,
 	  Numbers={Proportional},
-	  BoldFont = LinLibertine_RZ.otf ,
-	  ItalicFont = LinLibertine_RI.otf ,
-	  BoldItalicFont = LinLibertine_RZI.otf,
-	  BoldSlantedFont = LinLibertine_RZ.otf,
-	  SlantedFont    = LinLibertine_R.otf,
+	  BoldFont = LibertinusSerif-Semibold.otf,
+	  ItalicFont = LibertinusSerif-Italic.otf,
+	  BoldItalicFont = LibertinusSerif-SemiboldItalic.otf,
+	  BoldSlantedFont = LibertinusSerif-Semibold.otf,
+	  SlantedFont    = LibertinusSerif-Regular.otf,
 	  SlantedFeatures = {FakeSlant=0.25},
 	  BoldSlantedFeatures = {FakeSlant=0.25},
 	  SmallCapsFeatures = {FakeSlant=0},
-	  ]{LinLibertine_R.otf}
+	  ]{LibertinusSerif-Regular.otf}
 \fi
 
 %% Deprecated:
