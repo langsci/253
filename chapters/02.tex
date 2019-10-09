@@ -7,48 +7,25 @@
 How did ancient writers try to map out and categorize Greek linguistic diversity? Attempts at classifying the Greek dialects appeared relatively early and exhibited a striking mythological-etiological dimension, which I have to discuss at some length here, as it shaped early modern views to a certain extent. From a modern perspective it must seem rather odd to associate dialect with mythology, and it requires some explanation why this was the case in ancient Greece. To understand this connection, I should quote a seminal text fragment of the poet Hesiod (\textit{fl.} late 8th cent. \textsc{bc}) that usually heads outlines of Greek scholarship on the dialects:
 
 \begin{quote}
-From Hellen, the warlike king, were born
-\end{quote}
-
-\begin{quote}
-Dorus, Xuthus, and Aeolus the chariot-fighter.\footnote{\textit{Fragmenta} 9: “Ἕλληνoς δ’ ἐγένoντo φιλoπτoλέμoυ βασιλῆoς {\textbar} Δῶρός τε \Xi oῦθός τε καὶ Aἴoλoς ἱππιoχάρμης”. See also \citet[64]{Hainsworth1967}.}
+From Hellen, the warlike king, were born  Dorus, Xuthus, and Aeolus the chariot-fighter.\footnote{\textit{Fragmenta} 9: “Ἕλληνoς δ’ ἐγένoντo φιλoπτoλέμoυ βασιλῆoς {\textbar} Δῶρός τε \Xi oῦθός τε καὶ Aἴoλoς ἱππιoχάρμης”. See also \citet[64]{Hainsworth1967}.}
 \end{quote}
 
 Hellen, the son of Deucalion – or Zeus in a different tradition – and Pyrrha, was the mythological primogenitor of the Greeks, who were divided into four principal tribes, descended from Hellen’s sons Dorus, Xuthus, and Aeolus. Xuthus produced two distinct tribes through his sons Ion and Achaeus, from whom the Ionians and Achaeans derived. This somewhat complex mythological genealogy of the four Greek tribes, which oddly blended different generations of one and the same family, is visualized in \figref{fig:2.1} below.
 
 \begin{figure}
-\caption{The genealogy of Deucalion’s children (source \citealt{VanRooy2016b}: 208).}\label{fig:2.1}
+\caption{The genealogy of Deucalion’s children (source \citealt[208]{VanRooy2016b}).\label{fig:2.1}}
 
 %%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-Deucalion x Pyrrha        Cranaus
-
-
-%%[Warning: Draw object ignored]
-  \textbf{Hellen} x Orseis  Amphictyon  x  \textbf{Atthis}
-
-
-
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-
-
-
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-\textbf{Dorus}  Xuthus x Creusa  \textbf{Aeolus}
-
-\textbf{Ion}  Achaeus
+\begin{forest} for tree={forked edge', grow=south}
+[,phantom [Deucalion ⚭ Pyrrha [\textbf{Hellen} ⚭ Orseis,child anchor=150
+    [\textbf{Dorus}] [Xuthus ⚭ Creusa,child anchor=150 [\textbf{Ion}] [Achaeus]] [\textbf{Aeolus}] ] [Amphictyon  ⚭  \textbf{Atthis},child anchor=150,name=atthis]] [Cranaus,name=cranaus]]
+\draw let \p1=(cranaus),\p2=(atthis.north) in (cranaus) -- (\x1,\y2);
+\end{forest}
 \end{figure}
 
 As J. B. \citet[64-65]{Hainsworth1967} has rightly remarked, the four tribe model was projected onto the dialect groups of the Greek language. The myth was in other words of an etiological nature, as it explained the existence not only of the different Greek tribes and their names, but also the dialects they spoke. The earliest extant testimony of a dialect classification inspired by the mythological model is a fragment of the geographer Heraclides Criticus’ (\textit{fl.} 3rd cent. \textsc{bc}) \textit{Description of Greece} (fr. 3.2), which was incorrectly attributed for a long time to his colleague Dicaearchus (\textit{fl.} 4th cent. \textsc{bc}; see \citealt{Brodersen2015}). It suggested a division of the Greek language into Attic, Doric, Aeolic, Ionic, and – atypically – Hellenic, the variety of Hellas, for Heraclides apparently a region in Thessaly.\footnote{On Heraclides’ interpretation of Hellas and its place in his discourse, see McInerney (2012: 257–260).} This early classification, however, occupied a somewhat peculiar position, wielding barely any influence on later thought. Instead, two other dialect classifications dominated Greek scholarship.
 
-\section{Four or five dialects? The two major dialect classifications in Greek scholarship}\label{sec:2.2}
+\section[Four or five dialects?]{Four or five dialects? The two major dialect classifications in Greek scholarship}\label{sec:2.2}
 
 The notable geographer Strabo (ca. 62 \textsc{bc–}ca. \textsc{ad} 24) seems to have been the earliest scholar to propose a classification into four dialects: Ionic, Attic, Doric, and Aeolic (\textit{Geography} 8.1.2). He saw a close kinship between Ionic and Attic, on the one hand, and Doric and Aeolic, on the other. The former connection, corroborated by modern linguistics, might have been inspired by an intuitive comparison of actual linguistic data; the claim that Doric and Aeolic are closely related cannot, however, be backed by dialectal evidence and was probably maintained solely for the sake of analogy with the Ionic–Attic group. Another scholar proposing the fourfold classification was the grammarian Apollonius Dyscolus (1st half 2nd cent. \textsc{ad}), who according to the Byzantine encyclopedia known as the \textit{Suda} (at α.3422) composed a now lost work on the four Greek dialects Doric, Ionic, Aeolic, and Attic. The origin of this influential classification is unclear, but it seems to have been an achievement of Hellenistic scholarship, flourishing especially in Alexandria, Egypt, with its famous library. Strabo passed by the city on his many travels, and Apollonius lived and worked there.
 
