@@ -1,6 +1,10 @@
 \backmatter
 \phantomsection%this allows hyperlink in ToC to work
-{\sloppy\printbibliography[heading=references]}
+{\sloppy\printbibliography[heading=primary,keyword=primary]}
+\cleardoublepage
+
+\phantomsection%this allows hyperlink in ToC to work
+{\sloppy\printbibliography[heading=secondary,keyword=secondary]}
 \cleardoublepage
 
 \phantomsection 
@@ -20,4 +24,4 @@
 \addcontentsline{toc}{section}{\lsSubjectIndexTitle}
 \ohead{\lsSubjectIndexTitle} 
 \printindex[sbj]
-\ohead{} 
+\ohead{}
