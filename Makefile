@@ -26,6 +26,104 @@ main.snd: main.bbl
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.sdx # ordering of references to footnotes
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.adx
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.ldx
+	sed -i -e 's/indexentry {Aeolic/indexentry {Ancient Greek!Aeolic/g' main.ldx
+	sed -i -e 's/indexentry {Alexandrian/indexentry {Ancient Greek!Alexandrian/g' main.ldx
+	sed -i -e 's/indexentry {Arcado-Cypriot/indexentry {Ancient Greek!Arcado-Cypriot/g' main.ldx
+	sed -i -e 's/indexentry {Argive/indexentry {Ancient Greek!Argive/g' main.ldx
+	sed -i -e 's/indexentry {Asian/indexentry {Ancient Greek!Asian/g' main.ldx
+	sed -i -e 's/indexentry {Athenian/indexentry {Ancient Greek!Athenian/g' main.ldx
+	sed -i -e 's/indexentry {Attic/indexentry {Ancient Greek!Attic/g' main.ldx
+	sed -i -e 's/indexentry {Biblical/indexentry {Ancient Greek!Biblical/g' main.ldx
+	sed -i -e 's/indexentry {Boeotian/indexentry {Ancient Greek!Boeotian/g' main.ldx
+	sed -i -e 's/indexentry {Chalcidian/indexentry {Ancient Greek!Chalcidian/g' main.ldx
+	sed -i -e 's/indexentry {Cretan/indexentry {Ancient Greek!Cretan/g' main.ldx
+	sed -i -e 's/indexentry {Cypriot/indexentry {Ancient Greek!Cypriot/g' main.ldx
+	sed -i -e 's/indexentry {Doric/indexentry {Ancient Greek!Doric/g' main.ldx
+	sed -i -e 's/indexentry {Hebraizing/indexentry {Ancient Greek!Hebraizing/g' main.ldx
+	sed -i -e 's/indexentry {Hellenic/indexentry {Ancient Greek!Hellenic/g' main.ldx
+	sed -i -e 's/indexentry {Hellenistic/indexentry {Ancient Greek!Hellenistic/g' main.ldx
+	sed -i -e 's/indexentry {Homeric/indexentry {Ancient Greek!Homeric/g' main.ldx
+	sed -i -e 's/indexentry {Ionic/indexentry {Ancient Greek!Ionic/g' main.ldx
+	sed -i -e 's/indexentry {Koine/indexentry {Ancient Greek!Koine/g' main.ldx
+	sed -i -e 's/indexentry {Laconian/indexentry {Ancient Greek!Laconian/g' main.ldx
+	sed -i -e 's/indexentry {Lesbian/indexentry {Ancient Greek!Lesbian/g' main.ldx
+	sed -i -e 's/indexentry {Macedonian/indexentry {Ancient Greek!Macedonian/g' main.ldx
+	sed -i -e 's/indexentry {New Testament/indexentry {Ancient Greek!New Testament/g' main.ldx
+	sed -i -e 's/indexentry {North-West/indexentry {Ancient Greek!North-West/g' main.ldx
+	sed -i -e 's/indexentry {Pamphylian/indexentry {Ancient Greek!Pamphylian/g' main.ldx
+	sed -i -e 's/indexentry {Poetical/indexentry {Ancient Greek!Poetical/g' main.ldx
+	sed -i -e 's/indexentry {Rhegian/indexentry {Ancient Greek!Rhegian/g' main.ldx
+	sed -i -e 's/indexentry {Rhodian/indexentry {Ancient Greek!Rhodian/g' main.ldx
+	sed -i -e 's/indexentry {Septuagint/indexentry {Ancient Greek!Septuagint/g' main.ldx
+	sed -i -e 's/indexentry {Sicilian/indexentry {Ancient Greek!Sicilian/g' main.ldx
+	sed -i -e 's/indexentry {Syracusan/indexentry {Ancient Greek!Syracusan/g' main.ldx
+	sed -i -e 's/indexentry {Tarentine/indexentry {Ancient Greek!Tarentine/g' main.ldx
+	sed -i -e 's/indexentry {Thessalian/indexentry {Ancient Greek!Thessalian/g' main.ldx
+	sed -i -e 's/indexentry {Brabantian/indexentry {Dutch!Brabantian/g' main.ldx
+	sed -i -e 's/indexentry {Flemish/indexentry {Dutch!Flemish/g' main.ldx
+	sed -i -e 's/indexentry {Guelderish/indexentry {Dutch!Guelderish/g' main.ldx
+	sed -i -e 's/indexentry {Hollandic/indexentry {Dutch!Hollandic/g' main.ldx
+	sed -i -e 's/indexentry {Kleverlandish/indexentry {Dutch!Kleverlandish/g' main.ldx
+	sed -i -e 's/indexentry {Poetical Dutch/indexentry {Dutch!Poetical/g' main.ldx
+	sed -i -e 's/indexentry {Athenian/indexentry {Early Modern Greek@(Early) Modern Greek!Athenian/g' main.ldx
+	sed -i -e 's/indexentry {Ceraunian Mountains/indexentry {Early Modern Greek@(Early) Modern Greek!Ceraunian Mountains/g' main.ldx
+	sed -i -e 's/indexentry {Constantinopolitan/indexentry {Early Modern Greek@(Early) Modern Greek!Constantinopolitan/g' main.ldx
+	sed -i -e 's/indexentry {Continental/indexentry {Early Modern Greek@(Early) Modern Greek!Continental/g' main.ldx
+	sed -i -e 's/indexentry {Cretan/indexentry {Early Modern Greek@(Early) Modern Greek!Cretan/g' main.ldx
+	sed -i -e 's/indexentry {Cypriot/indexentry {Early Modern Greek@(Early) Modern Greek!Cypriot/g' main.ldx
+	sed -i -e 's/indexentry {Dimotikí/indexentry {Early Modern Greek@(Early) Modern Greek!Dimotikí/g' main.ldx
+	sed -i -e 's/indexentry {Insular/indexentry {Early Modern Greek@(Early) Modern Greek!Insular/g' main.ldx
+	sed -i -e 's/indexentry {Ioannina/indexentry {Early Modern Greek@(Early) Modern Greek!Ioannina/g' main.ldx
+	sed -i -e 's/indexentry {Katharévousa/indexentry {Early Modern Greek@(Early) Modern Greek!Katharévousa/g' main.ldx
+	sed -i -e 's/indexentry {Peloponnesian/indexentry {Early Modern Greek@(Early) Modern Greek!Peloponnesian/g' main.ldx
+	sed -i -e 's/indexentry {Standard Modern/indexentry {Early Modern Greek@(Early) Modern Greek!Standard Modern/g' main.ldx
+	sed -i -e 's/indexentry {Thessalonican/indexentry {Early Modern Greek@(Early) Modern Greek!Thessalonican/g' main.ldx
+	sed -i -e 's/indexentry {Tsakonian/indexentry {Early Modern Greek@(Early) Modern Greek!Tsakonian/g' main.ldx
+	sed -i -e 's/indexentry {Eastern English/indexentry {English!Eastern/g' main.ldx
+	sed -i -e 's/indexentry {Northern English/indexentry {English!Northern/g' main.ldx
+	sed -i -e 's/indexentry {Poetical English/indexentry {English!Poetical/g' main.ldx
+	sed -i -e 's/indexentry {Scots/indexentry {English!Scots/g' main.ldx
+	sed -i -e 's/indexentry {Southern English/indexentry {English!Southern/g' main.ldx
+	sed -i -e 's/indexentry {Western English/indexentry {English!Western/g' main.ldx
+	sed -i -e 's/indexentry {Somerset English/indexentry {English!Somerset/g' main.ldx
+	sed -i -e 's/indexentry {Old French/indexentry {French!Old/g' main.ldx
+	sed -i -e 's/indexentry {Parisian/indexentry {French!Parisian/g' main.ldx
+	sed -i -e 's/indexentry {Franco-Provençal/indexentry {Gallo-Romance!Franco-Provençal/g' main.ldx
+	sed -i -e 's/indexentry {Limousin/indexentry {Gallo-Romance!Limousin/g' main.ldx
+	sed -i -e 's/indexentry {Lyonnais/indexentry {Gallo-Romance!Lyonnais/g' main.ldx
+	sed -i -e 's/indexentry {Picard/indexentry {Gallo-Romance!Picard/g' main.ldx
+	sed -i -e 's/indexentry {Provençal/indexentry {Gallo-Romance!Provençal/g' main.ldx
+	sed -i -e 's/indexentry {Austrian/indexentry {German!Austrian/g' main.ldx
+	sed -i -e 's/indexentry {Bavarian/indexentry {German!Bavarian/g' main.ldx
+	sed -i -e 's/indexentry {East Upper German/indexentry {German!East Upper/g' main.ldx
+	sed -i -e 's/indexentry {High German/indexentry {German!High/g' main.ldx
+	sed -i -e 's/indexentry {Low German/indexentry {German!Low/g' main.ldx
+	sed -i -e 's/indexentry {Low Saxon German/indexentry {German!Low Saxon/g' main.ldx
+	sed -i -e 's/indexentry {Low Saxon/indexentry {German!Low Saxon/g' main.ldx
+	sed -i -e 's/indexentry {Swiss/indexentry {German!Swiss/g' main.ldx
+	sed -i -e 's/indexentry {Upper German/indexentry {German!Upper/g' main.ldx
+	sed -i -e 's/indexentry {North Germanic/indexentry {Germanic!North/g' main.ldx
+	sed -i -e 's/indexentry {West Germanic/indexentry {Germanic!West/g' main.ldx
+	sed -i -e 's/indexentry {Biblical Hebrew/indexentry {Hebrew!Biblical/g' main.ldx
+	sed -i -e 's/indexentry {Mishnaic Hebrew/indexentry {Hebrew!Mishnaic/g' main.ldx
+	sed -i -e 's/indexentry {Poetical Hebrew/indexentry {Hebrew!Poetical/g' main.ldx
+	sed -i -e 's/indexentry {Bergamasque/indexentry {Italo-Romance!Bergamasque/g' main.ldx
+	sed -i -e 's/indexentry {Florentine/indexentry {Italo-Romance!Florentine/g' main.ldx
+	sed -i -e 's/indexentry {Lombard/indexentry {Italo-Romance!Lombard/g' main.ldx
+	sed -i -e 's/indexentry {Neapolitan/indexentry {Italo-Romance!Neapolitan/g' main.ldx
+	sed -i -e 's/indexentry {Tuscan/indexentry {Italo-Romance!Tuscan/g' main.ldx
+	sed -i -e 's/indexentry {Venetian/indexentry {Italo-Romance!Venetian/g' main.ldx
+	sed -i -e 's/indexentry {Ancient Latin/indexentry {Latin!Ancient/g' main.ldx
+	sed -i -e 's/indexentry {Classical Latin/indexentry {Latin!Classical/g' main.ldx
+	sed -i -e 's/indexentry {Female Latin/indexentry {Latin!Female/g' main.ldx
+	sed -i -e 's/indexentry {Mantuan/indexentry {Latin!Mantuan/g' main.ldx
+	sed -i -e 's/indexentry {Mixed Latin/indexentry {Latin!Mixed/g' main.ldx
+	sed -i -e 's/indexentry {Paduan/indexentry {Latin!Paduan/g' main.ldx
+	sed -i -e 's/indexentry {Peasant Latin/indexentry {Latin!Peasant/g' main.ldx
+	sed -i -e 's/indexentry {Poetical Latin/indexentry {Latin!Poetical/g' main.ldx
+	sed -i -e 's/indexentry {Roman/indexentry {Latin!Roman/g' main.ldx
+	sed -i -e 's/indexentry {Castilian/indexentry {Spanish!Castilian/g' main.ldx
+	sed -i -e 's/indexentry {Västergötland/indexentry {Swedish!Västergötland/g' main.ldx
 	python3 fixindex.py
 	mv mainmod.adx main.adx
 	makeindex -o main.and main.adx
