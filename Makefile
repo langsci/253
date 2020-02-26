@@ -71,10 +71,10 @@ main.snd: main.bbl
 	sed -i -e 's/indexentry {Continental/indexentry {Early Modern Greek@(Early) Modern Greek!Continental/g' main.ldx
 	sed -i -e 's/indexentry {Cretan/indexentry {Early Modern Greek@(Early) Modern Greek!Cretan/g' main.ldx
 	sed -i -e 's/indexentry {Cypriot/indexentry {Early Modern Greek@(Early) Modern Greek!Cypriot/g' main.ldx
-	sed -i -e 's/indexentry {Dimotikí/indexentry {Early Modern Greek@(Early) Modern Greek!Dimotikí/g' main.ldx
+	sed -i -e 's/indexentry {Dimotikí/indexentry {Early Modern Greek@(Early) Modern Greek!Dimotikí@\\textit{Dimotikí}/g' main.ldx
 	sed -i -e 's/indexentry {Insular/indexentry {Early Modern Greek@(Early) Modern Greek!Insular/g' main.ldx
 	sed -i -e 's/indexentry {Ioannina/indexentry {Early Modern Greek@(Early) Modern Greek!Ioannina/g' main.ldx
-	sed -i -e 's/indexentry {Katharévousa/indexentry {Early Modern Greek@(Early) Modern Greek!Katharévousa/g' main.ldx
+	sed -i -e 's/indexentry {Katharévousa/indexentry {Early Modern Greek@(Early) Modern Greek!Katharévousa@\\textit{Katharévousa}/g' main.ldx
 	sed -i -e 's/indexentry {Peloponnesian/indexentry {Early Modern Greek@(Early) Modern Greek!Peloponnesian/g' main.ldx
 	sed -i -e 's/indexentry {Standard Modern/indexentry {Early Modern Greek@(Early) Modern Greek!Standard Modern/g' main.ldx
 	sed -i -e 's/indexentry {Thessalonican/indexentry {Early Modern Greek@(Early) Modern Greek!Thessalonican/g' main.ldx
@@ -121,7 +121,7 @@ main.snd: main.bbl
 	sed -i -e 's/indexentry {Paduan/indexentry {Latin!Paduan/g' main.ldx
 	sed -i -e 's/indexentry {Peasant Latin/indexentry {Latin!Peasant/g' main.ldx
 	sed -i -e 's/indexentry {Poetical Latin/indexentry {Latin!Poetical/g' main.ldx
-	sed -i -e 's/indexentry {Roman/indexentry {Latin!Roman/g' main.ldx
+	sed -i -e 's/indexentry {Roman|/indexentry {Latin!Roman|/g' main.ldx
 	sed -i -e 's/indexentry {Castilian/indexentry {Spanish!Castilian/g' main.ldx
 	sed -i -e 's/indexentry {Västergötland/indexentry {Swedish!Västergötland/g' main.ldx
 	python3 fixindex.py
