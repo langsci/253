@@ -124,6 +124,7 @@ main.snd: main.bbl
 	sed -i -e 's/indexentry {Roman|/indexentry {Latin!Roman|/g' main.ldx
 	sed -i -e 's/indexentry {Castilian/indexentry {Spanish!Castilian/g' main.ldx
 	sed -i -e 's/indexentry {Västergötland/indexentry {Swedish!Västergötland/g' main.ldx
+	sed -i -e 's/indexentry {Protestant/indexentry {Protestant\(ism\)/g' main.sdx
 	python3 fixindex.py
 	mv mainmod.adx main.adx
 	makeindex -o main.and main.adx
