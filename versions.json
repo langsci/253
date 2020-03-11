@@ -1,7 +1,1 @@
-{"versions": [{"versiontype": "proofreading",
-		"title": "Greece’s labyrinth of language",
-		"authors": [{"name": "Raf Van Rooy"}],
-	"license": "CC-BY-4.0",
-	"publishedAt": "2019-10-14T11:42:41.000Z"}
-	]
-}
+{"versions": [{"authors": [{"name": "Raf Van Rooy"}], "title": "Greece\u2019s labyrinth of language", "publishedAt": "2019-10-14T11:42:41.000Z", "license": "CC-BY-4.0", "versiontype": "proofreading"}, {"title": "Greece\u2019s labyrinth of language", "versiontype": "first_edition", "license": "CC-BY-4.0", "publishedAt": "2020-03-11T14:12:59.863897", "authors": [{"name": "Raf Van Rooy"}]}]}
